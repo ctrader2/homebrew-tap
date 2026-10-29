@@ -1,25 +1,25 @@
 class Platoon < Formula
   desc "A terminal app for running and managing Claude Code and Codex sessions: every conversation in one list, projects with notes, tasks run by squads"
   homepage "https://github.com/ctrader2/platoon"
-  version "1.2.0"
+  version "1.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ctrader2/platoon/releases/download/v1.2.0/platoon-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "445c1bc9d8859d0355a6d57ab2c7a62481f7ead5df309dc003969e14be2b2b8f"
+      url "https://github.com/ctrader2/platoon/releases/download/v1.3.0/platoon-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "fdeeb93c5365bf267bfab442b05ea5d62ef3fd9c25bf26079eff309faad8ffcf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ctrader2/platoon/releases/download/v1.2.0/platoon-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "534418d2a7248b0b39edc924c2dab2bde3091d1a8510a596e06e177effb163d2"
+      url "https://github.com/ctrader2/platoon/releases/download/v1.3.0/platoon-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "f8987f1cfafef63b77a1c2fcb361d116cdd4e25707d1ce070f5fbe3201566f52"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ctrader2/platoon/releases/download/v1.2.0/platoon-tui-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "b442f211add9c2ffbf03a06a4feec1e8eb614ade2bf767d1a6bca7bf7e598c45"
+      url "https://github.com/ctrader2/platoon/releases/download/v1.3.0/platoon-tui-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "30ef9106a3628a4e993db56ca53fea742f651df8f30c1a4d7c7ed7eac682f2d7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ctrader2/platoon/releases/download/v1.2.0/platoon-tui-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "e38d5fb9bab27a121296c09791b3e551bd07cbfa5fed57255bd32f17a5093ff4"
+      url "https://github.com/ctrader2/platoon/releases/download/v1.3.0/platoon-tui-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "8cd4e4b799071982ec490f63ca8080e98f81f23225c25ee6e170ec260ee6963c"
     end
   end
   license "MIT"
